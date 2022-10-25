@@ -1,0 +1,41 @@
+.principal-imagem {
+    background-image: url("../Img/casa\ principal.jpg");
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+    filter: brightness(0.80) opacity(0.90);
+    
+}
+
+.principal {
+    display: flex;
+}
+
+.principal-imagem__texto {
+    color: var(--cor-da-fonte-principal);
+    font-size: 88px;
+    font-weight: bold;
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    text-align: left;
+    width: 80%;
+}
+
+.principal-imagem__subtitulo {
+    color: var(--cor-da-fonte-principal);
+    font-size: 35px;
+    position: absolute;
+    left: 20%;
+    top: 65%;
+    text-align: left;
+    width: 50%;
+}
+
+
+
+
